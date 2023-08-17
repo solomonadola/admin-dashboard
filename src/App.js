@@ -10,7 +10,7 @@ import {
   Bar,
   ColorMapping,
   ColorPicker,
-  Customers,
+  Customers, 
   Ecommerce,
   Editor,
   Employees,
@@ -21,7 +21,7 @@ import {
 } from "./pages";
 import Calandar from "./pages/Calendar";
 const App = () => {
-  const activeMenu = false;
+  const activeMenu = true;
   return (
     <div>
       <BrowserRouter>
